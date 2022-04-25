@@ -1,17 +1,19 @@
 # JAV-本地视频搜索
-打开JAV相关视频网站时,自动提示本地有相关的问题。
+打开JAV相关视频网站时,自动提示本地有相关的视频。
 
  有时候有的片子已看过，但不记得是否看过。本脚本配合Everything,搜索本地文件和显示搜索结果 
 
 
 
-### 1.安装Everything 命令行
+### 1.安装everything 命令行与脚本
 
 https://www.voidtools.com/ES-1.1.0.23.zip
 
 解压，将 `es.exe` 复制到 `C:\Windows\System32`
 
-并先运行everything.exe
+下载代码 `videoSearch.bat` 复制到 `C:\Windows\System32`
+
+并运行everything.exe
 
 ### 2.添加注册表
 
@@ -76,6 +78,6 @@ Windows Registry Editor Version 5.00
 
 ### 5.实际效果
 
-打开xxx-110页面，提示如下
+打开莫JAV网站的 xxx-110页面，提示如下
 
 ![结果示例图](picture/结果示例图.jpg)
